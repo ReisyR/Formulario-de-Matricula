@@ -81,7 +81,7 @@ input {
         margin-top: .25rem;
     }
 
-    &[:required] + error {
+    &[required] + error {
         display: flex;
         align-items: center;
         gap: .25rem;
