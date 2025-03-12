@@ -1,0 +1,40 @@
+@media (max-width: 43.75rem) {
+    #app {
+        display: flex;
+        flex-direction: column-reverse;
+
+        & .main-container {
+           margin-inline: -2rem; 
+        }
+        
+        & .address {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    aside {
+        display: flex;
+        height: 12.5rem;
+
+        & h2, p {
+            display: none;
+        }
+
+        & img {
+            transform: translateY(-2.8rem);
+        }
+
+        & #school-img {
+            height: 8rem;
+            width: 11rem;
+            transform: translateY(-5rem) translateX(2.5rem);
+        }
+    }
+
+    main .actions-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}   

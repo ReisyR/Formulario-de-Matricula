@@ -50,3 +50,12 @@ img {
 .flex-2 {
     flex: 2;
 }
+
+input, select, textarea {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+
